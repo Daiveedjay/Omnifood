@@ -30,7 +30,7 @@
 Tints: #fdf2e9 , #fae5d3
 Shades:#cf711f
 Accents: 
-Greys: #555 , #333
+Greys: #555 , #333 , #6f6f6f
 
 --- 05 SHADOWS
 
@@ -149,6 +149,54 @@ Bigger: 12px
   background: rgba(255, 255, 255, 0.74);
   color: #555;
   transition: background 0.4s ease-in;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1.5px solid currentColor;
+  padding-bottom: 2px;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1.5px solid transparent;
+}
+
+/****************************************/
+/* MEALS SECTION : LISTS*/
+/****************************************/
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+/* HELPER CLASSES */
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {

@@ -54,6 +54,14 @@ Bigger: 12px
   gap: 6.4rem;
 }
 
+.grid:last-child {
+  margin-bottom: 0;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 6.4rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }

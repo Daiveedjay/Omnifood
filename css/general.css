@@ -70,6 +70,8 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+  /* Does no work on safari and ms edge */
 }
 
 body {
@@ -77,7 +79,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-
   /* Only eorks if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 
